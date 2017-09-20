@@ -1,0 +1,7 @@
+<a [routerLink]="['/collection', 6]" routerLinkActive="Active">Collections</a>
+  <a [routerLink]="['/cuisine', 6]" routerLinkActive="Active">Cuisines</a>
+<div class="list-group">
+        <div *ngFor="let item of collections">
+          <app-collection-item  [collectionSingle]="item"></app-collection-item>
+        </div>
+      </div>

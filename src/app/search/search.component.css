@@ -1,0 +1,15 @@
+#myCarousel .item{
+    height: 300px;
+ }
+ 
+ #slide1{
+    background: url('https://b.zmtcdn.com/images/foodshots/cover/pizza3.jpg?output-format=webp') top center no-repeat;
+ }
+ 
+
+ 
+ #myCarousel{
+    margin-top: 60px;
+ }
+ 
+ 

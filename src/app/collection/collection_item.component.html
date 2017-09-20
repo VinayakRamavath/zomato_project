@@ -1,0 +1,17 @@
+<a class="list-group-item" [routerLink]="['/restaurant', collectionSingle.collection.collection_id ]">
+  <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">{{ collectionSingle.collection.title }}</h3>
+        </div>
+        <div class="panel-body">
+           <div class="col-md-4">
+                <img src="{{ collectionSingle.collection.image_url }}" width="150px" height="80px" class="img-thumbnail"/>
+           </div>
+           <div class="col-md-8">
+               <p style="font-size:15px">
+               {{ collectionSingle.collection.description }}
+               </p>
+           </div>
+        </div>
+    </div>
+</a>

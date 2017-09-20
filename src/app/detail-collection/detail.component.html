@@ -1,0 +1,7 @@
+<div *ngIf="restaurant">
+    <div class="page-header">
+      <h1>{{ restaurant.name }} <small>{{ restaurant.cuisines }}</small></h1>
+    </div>
+    <img src="{{ restaurant.featured_image }}" class="thumbnail"/>
+   <!-- <map [restaurantLocation]="restaurant.location"></map>-->
+  </div>
